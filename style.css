@@ -46,7 +46,7 @@ body {
     )
     [center-end] minmax(1rem, 1fr) [full-end];
 
-  column-gap: 2.4rem;
+  gap: 2.4rem;
 }
 
 /**************************/
