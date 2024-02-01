@@ -38,17 +38,15 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: min-content 1fr min-content;
+  grid-template-rows: 10vh 90vh min-content;
   grid-template-columns:
     [full-start] minmax(1rem, 1fr) [center-start] repeat(
       4,
       [col-start] minmax(min-content, 30rem) [col-end]
     )
     [center-end] minmax(1rem, 1fr) [full-end];
-  gap: 2.4rem;
 
-  /* grid-auto-columns: min-content;
-  grid-auto-rows: min-content; */
+  column-gap: 2.4rem;
 }
 
 /**************************/
